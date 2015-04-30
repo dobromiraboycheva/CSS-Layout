@@ -1,0 +1,138 @@
+body{
+    font-family: Calibri,Tahoma,Arial,Serif;
+    background-color: #f1f1f1;
+    width: 960px;
+    margin:0;
+    padding: 0px;
+    font-size: 16px;
+}
+
+body>nav,body>section{
+    float: left;
+}
+
+body>nav{
+    width: 165px;
+    line-heght: 16px;
+
+}
+
+body>aside{
+    width: 180px;
+    float: right;
+}
+
+body>section{
+    width: 600px;
+    padding: 5px;
+    margin-top: 2px;
+    border:1px solid darkgray;
+    background-color: white;
+}
+
+body>nav>div>a, #home,section>header>nav>a, section>footer>nav>a{
+    text-decoration: none;
+    color:inherit;
+}
+
+body>nav>div>a,#home{
+    display: block;
+}
+
+#home{
+    font-weight: bold;
+    padding-left: 22px;
+    padding-top: 4px;
+    height: 20px;
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    margin-top: 20px;
+}
+
+nav h3{
+    margin: 5px 0 0 0;
+    color: darkred;
+}
+
+header{
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px;
+}
+
+section>header>nav>a, section>footer>nav>a{
+    width: 120px;
+    border:1px solid darkgray;
+    display:inline-block;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: gray;
+    color:white;
+    padding: 0 5px;
+}
+
+body>section>footer{
+    margin: 10px 0 40px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+}
+
+img{
+    width: 125px;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+aside>div{
+    border:1px solid darkgray;
+    text-align:center;
+    margin:2px;
+    padding: 0 0 5px 0;
+    background-color: white;
+}
+
+aside>div>h2{
+    margin:0px;
+}
+
+input[type=text] {
+    margin: 5px 10px;
+    width:100px;
+}
+
+button{
+    margun:3px;
+    width: 130px;
+    height: 40px;
+    font-weight: bolder;
+    color: #27ddff;
+    background-image: url("button.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#image{
+    float: left;
+    height: 100%;
+}
+
+#MainSection>p, #MainSection>h2{
+    font-weight: bolder;
+}
+
+main a{
+    color: darkred;
+}
+
+#right a{
+    color: darkred;
+}
+
+body>nav>div{
+    padding-left: 2px;
+}
